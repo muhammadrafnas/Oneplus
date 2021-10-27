@@ -78,8 +78,8 @@
           aria-label="Slide 3"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
           aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-          aria-label="Slide 3"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 3"></button> -->
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active img-background bg-image"
@@ -131,7 +131,7 @@
             <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark">Learn more</button>
           </div>
         </div>
-        <div class="carousel-item img-background bg-image"
+        <!-- <div class="carousel-item img-background bg-image"
           style="background-image: url('imagbum.jpg'); height: 100vh;width: 100%;background-size: cover;">
           <div class=" nord">
             <p class="fs-5">OnePlus Watch</p>
@@ -142,7 +142,7 @@
             <button type="button" class="btn btn-dark" data-mdb-ripple-color="dark">Buy Now</button>
             <button type="button" class="btn btn-outline-dark" data-mdb-ripple-color="dark">Learn more</button>
           </div>
-        </div>
+        </div> -->
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
@@ -241,56 +241,57 @@
             </button>
           </div>
         </div>
-        <div class="col-xl-4 col-6  mt-5 ">
-          <div class="main-div">
-            <div class="band-bum">
-              <p class="fs-6">OnePlus Band</p>
-              <p class="fs-6">From ₹1 699<del> ₹2 799</del></p>
-              <p class="fs-6"><u>Buy Now</u></p>
-            </div>
-            <div class="band bg-image hover-zoom">
-              <img src="bum2.jpg" alt="" class="img-fluid">
-            </div>
+        <div class="col-xl-4 col-6 mt-5 ">
+          <div class="card">
+            <div class="card-body text-center" style="background: #E3E3E3;">
+              <h4 class="card-title">One Plus</h4>
+              <p class="card-text">From ₹1 699 <del>₹2 799</del></p>
+              <a href=""><u>Buy Now</u></a>
           </div>
+            <img class="img-fluid" id="bum"  alt="100%x280" src="bum2.jpg">
+            
+        </div>
         </div>
 
         <div class="col-xl-4 col-6  mt-5  ">
-          <div class="main-div">
-            <div class=" oneplus">
-              <p class="fs-5">OnePlus TV Y Series</p>
-              <p class="fs-6">From ₹15 999 <del> ₹18 999</del></p>
-              <p class="fs-6"><u>Buy Now</u></p>
-            </div>
-            <div class="oneplus-tv bg-image hover-zoom">
-              <img src="tvdivimage.jpg" alt="" class="img-fluid">
-            </div>
+          <div class="card ">
+            <div class="card-body text-center" style="background: #D5D4D0;">
+              <h4 class="card-title">Oneplus TV Series</h4>
+              <p class="card-text">From ₹15 999 <del>₹18 999</del></p>
+              <a href=""><u>Buy Now</u></a>
+
           </div>
+            <img class="img-fluid"alt="100%x280" id="bum" src="tvdivimage.jpg">
+            
         </div>
-        <div class="col-xl-4 col-6 bg-image hover-zoom mt-5">
-          <div class="main-div">
-            <div class=" oneplus">
-              <p class="fs-6">OnePlus Bullets Wireless Z Series</p>
-              <p class="fs-6">₹1799 <del>₹2 190</del></p>
-              <p class="fs-6"><u>Buy Now</u></p>
-            </div>
-            <div class="Wireless-bullets bg-image hover-zoom">
-              <img src="headset.jpg" alt="" class="img-fluid">
-            </div>
+        </div>
+        <div class="col-xl-4 col-6  mt-5">
+          <div class="card ">
+            <div class="card-body text-center" style="background: #CFCFD7;">
+              <h4 class="card-title">Oneplus Bullets Wireless Z Series</h4>
+              <p class="card-text">From ₹1 799 <del>₹2 190</del></p>
+              <a href=""><u>Buy Now</u></a>
+
           </div>
+            <img class="img-fluid" id="bum"  alt="100%x280" src="headset.jpg">
+            
+        </div>
         </div>
         <div class="col-xl-4 col-6 mt-5">
-          <div class="main-div">
-            <div class=" oneplus">
-              <p class="fs-5">OnePlus Power Bank</p>
-              <p class="fs-6">₹899<del>₹1 099</del></p>
-              <p class="fs-6"><u>Buy Now</u></p>
-            </div>
-            <div class="Power-bank bg-image hover-zoom">
-              <img src="powercab2.jpg" alt="" class="img-fluid">
-            </div>
+          <div class="card">
+            <div class="card-body text-center" style="background: #D4D5D7;">
+              <h4 class="card-title">Oneplus Power Bank</h4>
+              <p class="card-text">From ₹899<del>₹1 099</del></p>
+              <a href=""><u>Buy Now</u></a>
+
           </div>
+            <img class="img-fluid" id="bum" alt="100%x280" src="powercab2.jpg">
+            
+        </div>
         </div>
       </div>
+      </div>
+      
 
       <div class="container-fluid">
         <div class="row  mt-5">
@@ -326,77 +327,150 @@
           </div>
         </div>
       </div>
-
-
-
-
-
-
-      <div class="d-flex justify-content-around justify-content-between" style="height: auto; ">
-        <div class="news18-div">
-          <center>
-            <div class="news-18 mt-5 ">
-              <img src="News 18 logo.png" class="d-block w-100 " alt="..." />
-            </div>
-          </center>
-          <center>
-            <p style="font-size: 1.5vw;">Hold this in your hand and you get the <br> distinect feeling that this is
-              well-built <br>and premium phone.</p>
-            <a href="#"><u>Learn more</u></a>
-          </center>
-
-        </div>
-        <div class="verge">
-          <center>
-            <div class="verge-div ">
-              <img src="Verge-Black.png" class="d-block w-100" alt="..." />
-            </div>
-
-          </center>
-
-          <center>
-            <h5 style="font-size: 1.5vw;padding-top: 25px; padding-left: 10px;">The OnePlus 9 pro is a legitimate
-              <br>flagship phone that is genuinely <br> competitive with the best Android <br> phones on the market.
-            </h5><br>
-            <a href="#"><u>Learn more</u></a>
-          </center>
-
-
-        </div>
-        <div style="width: 25vw; height: 15vh;">
-          <center>
-            <div class="editor ">
-              <img src="Editorji Logo.png" class="d-block w-100 ed-sp-class" alt="..." />
-            </div>
-          </center>
-
-          <center>
-            <p style="margin-top: 25px; font-size: 1.5vw;">The Oneplus 9R shines on both fronts <br> which is gaming and
-              perfomance. </p>
-            <a href="#"><u>Learn more</u></a>
-          </center>
-        </div>
       </div>
 
+    
+    <section class="pt-5 pb-5">
+      <div class="container">
+          <div class="row">
+             
+              <div class="col-12">
+                  <div id="move" class="carousel slide" data-ride="carousel">
+  
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card align-items-center">
+                                          <img class="img-fluid" id="img-tsk" alt="100%x280" src="News 18 logo.png">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card align-items-center">
+                                          <img class="img-fluid" id="img-tsk1" alt="100%x280" src="Verge-Black.png">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card align-items-center">
 
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="last-section">
-          <div class="last-text">
-            <center>
-              <h2>Always be the first to know</h2>
-              <p>Sign up four newslwtter</p>
-              <input type="text" placeholder="Email Address" class="bg-black">
-              <p>Subscribe to recevie <u>marketing information</u></p>
-
-            </center>
+                                          <img class="img-fluid" id="img-tsk2" alt="100%x280" src="Editorji Logo.png" st>
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                        
+                                          <img class="img-fluid" alt="100%x280" src="Editorji Logo.png">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+  
+                              </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+  
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+  
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+  
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-4 mb-3">
+                                      <div class="card">
+                                          <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                                          <div class="card-body">
+                                              <h4 class="card-title">Special title treatment</h4>
+                                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <center>
+                        <div class="col-6 text-right">
+                          <a class="btn btn-dark mb-3 mr-1" href="#move" role="button" data-slide="prev">
+                              <i class="fa fa-arrow-left"></i>
+                          </a>
+                          <a class="btn btn-dark mb-3 " href="#move" role="button" data-slide="next">
+                              <i class="fa fa-arrow-right"></i>
+                          </a>
+                      </div>
+                      </center>
+                  </div>
+                 
+              </div>
           </div>
-
-
-        </div>
       </div>
-    </div>
+  </section>
+    
+
+
+      
+     
 
 
 
