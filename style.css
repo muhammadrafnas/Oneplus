@@ -294,6 +294,13 @@ height: 15vh;
       display: none;
     }
   }
+  @media screen and (max-width: 601px){
+    .last-class{
+      margin-top: 83
+      px
+      ;
+    }
+  }
 /* 
 ========================================================= */
 
